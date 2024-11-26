@@ -738,23 +738,23 @@ MonoBehaviour:
   MarkYoffset: 0.5
   map:
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   - x: 010101010101010101
-    isEmployed: 
+    isEmployed: 000000000000000000
   MarkMask:
     serializedVersion: 2
     m_Bits: 8

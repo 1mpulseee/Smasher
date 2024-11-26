@@ -56,7 +56,7 @@ public class DemoWorld : MonoBehaviour
                     string[] s = hit.transform.name.Split("/");
                     int x = int.Parse(s[0]);
                     int y = int.Parse(s[1]);
-                    if (oldSelect != new Vector2Int(x,y))
+                    if (oldSelect != new Vector2Int(x,y) && map[oldSelect.x].x[oldSelect.y])
                     {
                         MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
                     }
@@ -75,7 +75,10 @@ public class DemoWorld : MonoBehaviour
             }
             else
             {
-                MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
+                if (map[oldSelect.x].x[oldSelect.y])
+                {
+                    MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
+                }
                 PosSelected = false;
             }
         }
@@ -85,7 +88,10 @@ public class DemoWorld : MonoBehaviour
             {
                 Build();
             }
-            MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
+            if (map[oldSelect.x].x[oldSelect.y])
+            {
+                MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
+            }
         }
     }
     void CreateMarksField()

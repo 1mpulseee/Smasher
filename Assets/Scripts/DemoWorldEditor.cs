@@ -3,18 +3,17 @@ using UnityEngine;
 [CustomEditor(typeof(DemoWorld))]
 public class DemoWorldEditor : Editor
 {
-    int MapRange;
     DemoWorld main;
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
+        
         GUILayout.Space(10);
 
         main = (DemoWorld)target;
 
-        if (MapRange != main.MapRange)
+        if (main.map.Length != main.MapRange)
         {
-            MapRange = main.MapRange;
             UpdateMapArray();
         }
 
@@ -25,21 +24,21 @@ public class DemoWorldEditor : Editor
     }
     void UpdateMapArray()
     {
-        main.map = new Map[MapRange];
-        for (int i = 0; i < MapRange; i++)
+        main.map = new Map[main.MapRange];
+        for (int i = 0; i < main.MapRange; i++)
         {
             main.map[i] = new Map {
-                x = new bool[MapRange]
+                x = new bool[main.MapRange]
             };
         }
     }
     void DrawMapMatrix()
     {
         GUILayout.BeginVertical();
-        for (int v = 0; v < MapRange; v++)
+        for (int v = 0; v < main.MapRange; v++)
         {
             GUILayout.BeginHorizontal();
-            for (int h = 0; h < MapRange; h++)
+            for (int h = 0; h < main.MapRange; h++)
             {
                 main.map[v].x[h] = EditorGUILayout.Toggle("", main.map[v].x[h], GUILayout.Width(20), GUILayout.Height(20));
             }

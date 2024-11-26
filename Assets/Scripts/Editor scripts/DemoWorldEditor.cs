@@ -48,7 +48,8 @@ public class DemoWorldEditor : Editor
         for (int i = 0; i < main.MapRange; i++)
         {
             main.map[i] = new Map {
-                x = new bool[main.MapRange]
+                x = new bool[main.MapRange],
+                isEmployed = new bool[main.MapRange]
             };
         }
     }

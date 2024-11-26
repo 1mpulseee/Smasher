@@ -6,7 +6,7 @@ public class DemoWorld : MonoBehaviour
     [Range(4, 16)] public int MapRange = 8;
     [SerializeField][Range(1f, 10f)] float TileSize = 1f;
     [SerializeField] float MarkYoffset;
-    [HideInInspector] public Map[] map;
+    [HideInInspector] public bool[,] map;
     GameObject[,] Marks;
     MeshRenderer[,] MarksMaterial;
     [SerializeField] LayerMask MarkMask;
@@ -26,7 +26,7 @@ public class DemoWorld : MonoBehaviour
         {
             for (int y = 0; y < MapRange; y++)
             {
-                if (map[x].x[y])
+                if (map[x,y])
                 {
                     Marks[x, y] = Instantiate(Mark, transform.position + new Vector3(x * TileSize - MapLenght / 2 + 1, MarkYoffset, y * TileSize - MapLenght / 2 + 1), Quaternion.identity);
                     Vector3 Size = Vector3.one * (TileSize * .85f);
@@ -77,9 +77,4 @@ public class DemoWorld : MonoBehaviour
             MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
         }
     }
-}
-[System.Serializable]
-public class Map
-{
-    public bool[] x;
 }

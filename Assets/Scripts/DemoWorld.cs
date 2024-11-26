@@ -42,12 +42,11 @@ public class DemoWorld : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
 
-            if (Physics.Raycast(ray, out hit, 100f, MarkMask))
+            if (Physics.Raycast(ray, out RaycastHit hit, 100f, MarkMask))
             {
-                Vector2 pos = new Vector2(hit.point.x - transform.position.x, hit.point.z - transform.position.z);
+                Vector2 pos = new(hit.point.x - transform.position.x, hit.point.z - transform.position.z);
                 if (Mathf.Max(Mathf.Abs(pos.x), Mathf.Abs(pos.y)) < MapLenght/2f)
                 {
                     string[] s = hit.transform.name.Split("/");

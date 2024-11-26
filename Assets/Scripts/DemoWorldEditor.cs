@@ -12,7 +12,11 @@ public class DemoWorldEditor : Editor
 
         main = (DemoWorld)target;
 
-        if (main.map.Length != main.MapRange)
+        if (main.map == null)
+        {
+            UpdateMapArray();
+        }
+        else if (main.map.Length != main.MapRange)
         {
             UpdateMapArray();
         }
@@ -20,6 +24,22 @@ public class DemoWorldEditor : Editor
         GUILayout.TextArea("Map matrix");
         GUILayout.Space(10);
 
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Full"))
+        {
+            for (int v = 0; v < main.MapRange; v++)
+            {
+                for (int h = 0; h < main.MapRange; h++)
+                {
+                    main.map[v].x[h] = true;
+                }
+            }
+        }
+        if (GUILayout.Button("Clear"))
+        {
+            UpdateMapArray();
+        }
+        GUILayout.EndHorizontal();
         DrawMapMatrix();
     }
     void UpdateMapArray()

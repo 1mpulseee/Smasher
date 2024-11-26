@@ -7,7 +7,7 @@ public class DemoWorldEditor : Editor
     public override void OnInspectorGUI()
     {
         base.OnInspectorGUI();
-
+        
         GUILayout.Space(10);
 
         main = (DemoWorld)target;
@@ -44,7 +44,13 @@ public class DemoWorldEditor : Editor
     }
     void UpdateMapArray()
     {
-        main.map = new bool[main.MapRange, main.MapRange];
+        main.map = new Map[main.MapRange];
+        for (int i = 0; i < main.MapRange; i++)
+        {
+            main.map[i] = new Map {
+                x = new bool[main.MapRange]
+            };
+        }
     }
     void DrawMapMatrix()
     {
@@ -54,7 +60,7 @@ public class DemoWorldEditor : Editor
             GUILayout.BeginHorizontal();
             for (int h = 0; h < main.MapRange; h++)
             {
-                main.map[v, h] = EditorGUILayout.Toggle("", main.map[v, h], GUILayout.Width(20), GUILayout.Height(20));
+                main.map[v].x[h] = EditorGUILayout.Toggle("", main.map[v].x[h], GUILayout.Width(20), GUILayout.Height(20));
             }
             GUILayout.EndHorizontal();
         }

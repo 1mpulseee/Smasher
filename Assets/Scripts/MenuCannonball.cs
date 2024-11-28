@@ -5,7 +5,7 @@ public class MenuCannonball : MonoBehaviour
     {
         if (collision.gameObject.tag == "MenuButton")
         {
-            collision.gameObject.GetComponent<MenuButton>().Click();
+            collision.gameObject.GetComponentInParent<MenuButton>().Click(gameObject.transform.position);
         }
     }
 }

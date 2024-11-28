@@ -5,28 +5,22 @@ using UnityEngine;
 public class MenuButton : MonoBehaviour
 {
     [SerializeField] ButtonType type;
-    public void Click()
+    [SerializeField] GameObject full, blocks;
+    [SerializeField] Rigidbody[] blocksRb;
+    public void Click(Vector3 pos)
     {
-        DestroyButton();
+        DestroyButton(pos);
         Invoke("qaz", 3f);
     }
-    void DestroyButton()
+    void DestroyButton(Vector3 pos)
     {
-        
+        full.SetActive(false);
+        blocks.SetActive(true);
+        for (int i = 0; i < blocksRb.Length; i++)
+        {
+            blocksRb[i].AddExplosionForce(150, pos, 50);
+        }
     }
-    //IEnumerator test()
-    //{
-    //    StartCoroutine(test());
-
-    //    print("1");
-    //    yield return new WaitForSeconds(3);
-    //    print("1");
-    //    while (true)
-    //    {
-    //        yield return new WaitForSeconds(3);
-    //    print("1");
-    //    }
-    //}
     void qaz()
     {
         switch (type)

@@ -10,8 +10,8 @@ public class DemoWorld : MonoBehaviour
     [HideInInspector] public Map[] map;
     GameObject[,] Marks;
     MeshRenderer[,] MarksMaterial;
-    [SerializeField] LayerMask MarkMask;
-    [SerializeField] GameObject Mark;
+    LayerMask MarkMask;
+    GameObject Mark;
     Material StandardMarkMaterial, SelectedMarkMaterial;
     float MapLenght;
     Vector2Int oldSelect;
@@ -41,6 +41,8 @@ public class DemoWorld : MonoBehaviour
         StandardMarkMaterial = CFG.StandardMarkMaterial;
         SelectedMarkMaterial = CFG.SelectedMarkMaterial;
         BuildButtonPrefab = CFG.BuildButtonPrefab;
+        MarkMask = CFG.MarkMask;
+        Mark = CFG.Mark;
     }
     private void Update()
     {

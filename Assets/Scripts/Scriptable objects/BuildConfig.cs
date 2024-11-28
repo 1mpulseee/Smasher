@@ -9,7 +9,9 @@ public class BuildConfig : ScriptableObject
     [SerializeField] private Color _SelectedButtonColor;
     [SerializeField] private Color _CloseButtonColor;
     [SerializeField] private Construction[] _Buildings;
-    
+    [SerializeField] private LayerMask _MarkMask;
+    [SerializeField] private GameObject _Mark;
+
 
     public Material StandardMarkMaterial => this._StandardMarkMaterial;
     public Material SelectedMarkMaterial => this._SelectedMarkMaterial;
@@ -18,6 +20,8 @@ public class BuildConfig : ScriptableObject
     public Color SelectedButtonColor => this._SelectedButtonColor;
     public Color CloseButtonColor => this._CloseButtonColor;
     public Construction[] Buildings => this._Buildings;
+    public LayerMask MarkMask => this._MarkMask;
+    public GameObject Mark => this._Mark;
 }
 [System.Serializable]
 public class Construction

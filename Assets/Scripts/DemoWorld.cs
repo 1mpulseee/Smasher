@@ -56,7 +56,7 @@ public class DemoWorld : MonoBehaviour
                     string[] s = hit.transform.name.Split("/");
                     int x = int.Parse(s[0]);
                     int y = int.Parse(s[1]);
-                    if (oldSelect != new Vector2Int(x,y) && map[oldSelect.x].x[oldSelect.y])
+                    if (oldSelect != new Vector2Int(x,y) && map[oldSelect.x].tile[oldSelect.y].isEmployed)
                     {
                         MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
                     }
@@ -75,7 +75,7 @@ public class DemoWorld : MonoBehaviour
             }
             else
             {
-                if (map[oldSelect.x].x[oldSelect.y])
+                if (map[oldSelect.x].tile[oldSelect.y].isEmployed)
                 {
                     MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
                 }
@@ -88,7 +88,7 @@ public class DemoWorld : MonoBehaviour
             {
                 Build();
             }
-            if (map[oldSelect.x].x[oldSelect.y])
+            if (map[oldSelect.x].tile[oldSelect.y].isEmployed)
             {
                 MarksMaterial[oldSelect.x, oldSelect.y].material = StandardMarkMaterial;
             }
@@ -100,8 +100,9 @@ public class DemoWorld : MonoBehaviour
         {
             for (int y = 0; y < MapRange; y++)
             {
-                if (map[x].x[y])
+                if (map[x].tile[y].x)
                 {
+                    map[x].tile[y].isEmployed = true;
                     Marks[x, y] = Instantiate(Mark, transform.position + new Vector3(x * TileSize - MapLenght / 2 + 1, MarkYoffset, y * TileSize - MapLenght / 2 + 1), Quaternion.identity);
                     Vector3 Size = Vector3.one * (TileSize * .85f);
                     Size.y = TileSize * .1f;
@@ -130,12 +131,9 @@ public class DemoWorld : MonoBehaviour
         for (int i = 0; i < buttons.Length; i++)
         {
             float money = float.MaxValue; //upd
-            if (Selected != null)
+            if (Selected != null && Selected == buttons[i])
             {
-                if (Selected == buttons[i])
-                {
-                    buttons[i].buyBuildButton.SetOutline(ButtonState.Selected);
-                }
+                buttons[i].buyBuildButton.SetOutline(ButtonState.Selected);
             }
             else if (money > CFG.Buildings[i].Price)
             {
@@ -164,9 +162,21 @@ public class DemoWorld : MonoBehaviour
     {
         if (Selected != null)
         {
-            Instantiate(CFG.Buildings[SelectedId].Prefab, new Vector3(oldSelect.x * TileSize - MapLenght / 2f, transform.position.y + MarkYoffset + CFG.Buildings[SelectedId].YOffset, oldSelect.y * TileSize - MapLenght / 2f) + new Vector3(1, 0, 1), Quaternion.identity);
+            Instantiate(CFG.Buildings[SelectedId].Prefab, new Vector3(oldSelect.x * TileSize - MapLenght / 2f,
+                transform.position.y + MarkYoffset + CFG.Buildings[SelectedId].YOffset + map[oldSelect.x].tile[oldSelect.y].YOffset,
+                oldSelect.y * TileSize - MapLenght / 2f) + new Vector3(1, 0, 1), Quaternion.identity);
             Selected = null;
             PosSelected = false;
+            if (CFG.Buildings[SelectedId].NextLayerYOffset > 0)
+            {
+                map[oldSelect.x].tile[oldSelect.y].YOffset += CFG.Buildings[SelectedId].NextLayerYOffset;
+                Marks[oldSelect.x, oldSelect.y].transform.position += new Vector3(0, CFG.Buildings[SelectedId].NextLayerYOffset, 0);
+            }
+            else
+            {
+                map[oldSelect.x].tile[oldSelect.y].isEmployed = false;
+                Destroy(Marks[oldSelect.x, oldSelect.y]);
+            }
             RefreshButtons();
         }
     }
@@ -174,13 +184,19 @@ public class DemoWorld : MonoBehaviour
 [System.Serializable]
 public class Map
 {
-    public bool[] x;
-    public bool[] isEmployed; //не работает, новый класс вместо бул
+    public Tile[] tile;
 }
 [System.Serializable]
 public class BuildButton
 {
     public GameObject ButtonObject;
     public BuyBuildButton buyBuildButton;
+}
+[System.Serializable]
+public class Tile
+{
+    public bool x;
+    public bool isEmployed;
+    public float YOffset;
 }
 public enum ButtonState { Main, Selected, Close } 

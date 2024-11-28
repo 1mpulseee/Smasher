@@ -31,7 +31,7 @@ public class DemoWorldEditor : Editor
             {
                 for (int h = 0; h < main.MapRange; h++)
                 {
-                    main.map[v].x[h] = true;
+                    main.map[v].tile[h].x = true;
                 }
             }
         }
@@ -48,9 +48,12 @@ public class DemoWorldEditor : Editor
         for (int i = 0; i < main.MapRange; i++)
         {
             main.map[i] = new Map {
-                x = new bool[main.MapRange],
-                isEmployed = new bool[main.MapRange]
+                tile = new Tile[main.MapRange],
             };
+            for (int y = 0; y < main.MapRange; y++)
+            {
+                main.map[i].tile[y] = new Tile { isEmployed = false, x = false, YOffset = 0f };
+            }
         }
     }
     void DrawMapMatrix()
@@ -61,7 +64,7 @@ public class DemoWorldEditor : Editor
             GUILayout.BeginHorizontal();
             for (int h = 0; h < main.MapRange; h++)
             {
-                main.map[v].x[h] = EditorGUILayout.Toggle("", main.map[v].x[h], GUILayout.Width(20), GUILayout.Height(20));
+                main.map[v].tile[h].x = EditorGUILayout.Toggle("", main.map[v].tile[h].x, GUILayout.Width(20), GUILayout.Height(20));
             }
             GUILayout.EndHorizontal();
         }

@@ -25,4 +25,5 @@ public class Construction
     public float Price;
     public GameObject Prefab;
     public float YOffset;
+    public float NextLayerYOffset;
 }

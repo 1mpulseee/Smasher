@@ -22,6 +22,8 @@ MonoBehaviour:
   - Price: 100
     Prefab: {fileID: 2610679435286429849, guid: 2dde50841aa14804087f08cc427b9677, type: 3}
     YOffset: 0
+    NextLayerYOffset: 4
   - Price: 200
     Prefab: {fileID: 384764658662743813, guid: 289ad154408818446ac03996da762fff, type: 3}
     YOffset: 0
+    NextLayerYOffset: 0

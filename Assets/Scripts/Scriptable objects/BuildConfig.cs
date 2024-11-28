@@ -26,8 +26,9 @@ public class BuildConfig : ScriptableObject
 [System.Serializable]
 public class Construction
 {
-    public float Price;
     public GameObject Prefab;
     public float YOffset;
     public float NextLayerYOffset;
+    public float Price;
+    public Sprite Icon;
 }

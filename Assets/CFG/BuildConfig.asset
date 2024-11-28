@@ -27,3 +27,7 @@ MonoBehaviour:
     Prefab: {fileID: 384764658662743813, guid: 289ad154408818446ac03996da762fff, type: 3}
     YOffset: 0
     NextLayerYOffset: 0
+  _MarkMask:
+    serializedVersion: 2
+    m_Bits: 8
+  _Mark: {fileID: 5765810913182272115, guid: d68445904c84701429334531dd726e92, type: 3}

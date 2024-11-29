@@ -13,8 +13,8 @@ public class BuyBuildButton : MonoBehaviour
     {
         this.id = id;
         this.world = world;
-        Price.text = "Price:" + "\n" + CFG.Buildings[id].Price.ToString();
-        Icon.sprite = CFG.Buildings[id].Icon;
+        //Price.text = "Price:" + "\n" + CFG.Buildings[id].Price.ToString();
+        //Icon.sprite = CFG.Buildings[id].Icon;
     }
     public void Select()
     {

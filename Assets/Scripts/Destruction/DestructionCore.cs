@@ -22,11 +22,20 @@ public class DestructionCore : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        ChangeHealth(collision.impulse.magnitude);
-        
+        float dmg = collision.impulse.magnitude;
+        if (collision.transform.tag == "CannonBall")
+        {
+            dmg *= 3f;
+        }
+        ChangeHealth(dmg);
     }
     private void OnCollisionStay(Collision collision)
     {
-        ChangeHealth(collision.impulse.magnitude);
+        float dmg = collision.impulse.magnitude;
+        if (collision.transform.tag == "CannonBall")
+        {
+            dmg *= 3f;
+        }
+        ChangeHealth(dmg);
     }
 }

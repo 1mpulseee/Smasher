@@ -5,19 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: dde82df0a17ce084d810e3db339b01aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Clans.unity
     guid: 0d5cb0e894e2d574691598aa831b95c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OnepMenu.unity
     guid: 5d19c9640dea49e4d9c9fe1852bd52c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PvpMenu.unity
     guid: cf335ee715356bb4f8a48b0fb41d7989
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Settings.unity
     guid: 30876564b1b471c41b4585180cb13fa7
+  - enabled: 1
+    path: Assets/Test/Scenes/Menu.unity
+    guid: 838052ed59ccaf742a3d333a900e7a11
+  - enabled: 1
+    path: Assets/Test/Scenes/Lobby.unity
+    guid: facd53cdcc8d1614b925cceaa08bb660
+  - enabled: 1
+    path: Assets/Test/Game.unity
+    guid: bea6f1bbd419ae4439dc13ee69b04a28
   m_configObjects: {}

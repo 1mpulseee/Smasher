@@ -3657,7 +3657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MapHP: 1500
-  MinDamage: 75
+  MinDamage: 90
   Effect: {fileID: 0}
   Fragments: {fileID: 7737039334410532852}
 --- !u!1 &8184255513078648290

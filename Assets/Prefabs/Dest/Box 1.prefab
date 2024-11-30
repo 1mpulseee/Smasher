@@ -132,7 +132,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7999505159608336201, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &2198771996481381151
@@ -282,7 +282,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3851342398656354722, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &2955147352636739167
@@ -432,7 +432,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1953288460765148261, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &7842873887271828157
@@ -715,7 +715,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8306038710799377712, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &6636356057112280051
@@ -865,7 +865,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8948388433276234890, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &5038100883991401706
@@ -1015,7 +1015,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5278805544609947218, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &7577614472219660718
@@ -1344,7 +1344,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8531987220084259113, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &1461864093223690909
@@ -1494,7 +1494,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7343968233921891070, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &3420281475505495406
@@ -1644,7 +1644,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6271399095723595154, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &2711087364754238651
@@ -1927,7 +1927,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6324031344091775352, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &2822201679468128610
@@ -2346,7 +2346,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3500865897513172893, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &1788468263047777480
@@ -2496,7 +2496,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4016102313077440864, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &1358680088570435688
@@ -2646,7 +2646,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3446807974483913122, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &8672278796627532868
@@ -2796,7 +2796,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6676740603974726004, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &5625151584312093611
@@ -3079,7 +3079,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -9090899280506728134, guid: bcc6e26aec7af7b4ebbc25a86dc7a9b6, type: 3}
 --- !u!114 &115887894094432036

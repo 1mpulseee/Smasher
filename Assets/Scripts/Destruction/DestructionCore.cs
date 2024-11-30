@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 public class DestructionCore : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class DestructionCore : MonoBehaviour
     protected virtual void Breakdown() { }
     protected virtual void ChangeHealth(float dmg)
     {
+        if (!GameManager.instance.GameStarted) return;
         if (dmg > MinDamage)
         {
             Hp -= dmg;
@@ -25,7 +27,7 @@ public class DestructionCore : MonoBehaviour
         float dmg = collision.impulse.magnitude;
         if (collision.transform.tag == "CannonBall")
         {
-            dmg *= 3f;
+            dmg *= 5f;
         }
         ChangeHealth(dmg);
     }
@@ -34,7 +36,7 @@ public class DestructionCore : MonoBehaviour
         float dmg = collision.impulse.magnitude;
         if (collision.transform.tag == "CannonBall")
         {
-            dmg *= 3f;
+            dmg *= 5f;
         }
         ChangeHealth(dmg);
     }

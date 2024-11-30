@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83871881411692979}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.40059948, y: -0.02823767, z: -0.40474057}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8009566451557483398
 MeshFilter:
@@ -94,7 +94,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83871881411692979}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &2538697434343803579
 MeshCollider:
@@ -178,13 +178,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127043500581091353}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.23572254, y: -0.17684184, z: -0.32049453}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5325531987874698932
 MeshFilter:
@@ -244,7 +244,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127043500581091353}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -275,8 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &2290261996973031458
 MeshCollider:
@@ -329,14 +329,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303109741063815850}
-  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.7071067}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000058114523, y: -0.00000041723246, z: 1, w: 2.4513722e-13}
   m_LocalPosition: {x: 0, y: 0.11418155, z: -0.013711214}
   m_LocalScale: {x: 30.432785, y: 30.432785, z: 30.432785}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4852960102565348023}
-  m_RootOrder: -2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -180, y: 180, z: 0}
 --- !u!33 &1361022320897283827
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -395,7 +395,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303109741063815850}
   serializedVersion: 4
-  m_Mass: 250
+  m_Mass: 200
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -426,8 +426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08953754ddabf0f46a8a02e18a26e8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 2500
-  MinDamage: 300
+  MapHP: 3000
+  MinDamage: 350
   Effect: {fileID: 0}
   Fragments: {fileID: 2286961132592470665}
 --- !u!65 &6863483879624236648
@@ -500,13 +500,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807795510047092827}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.14688778, y: 0.21674332, z: -0.22353673}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4266483777966335665
 MeshFilter:
@@ -566,7 +566,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807795510047092827}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -597,8 +597,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &8330195535419505080
 MeshCollider:
@@ -650,13 +650,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536224689252582610}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.1923933, y: -0.17706874, z: -0.2187289}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8256509161605069442
 MeshFilter:
@@ -716,7 +716,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536224689252582610}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -747,8 +747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &6066787357103449261
 MeshCollider:
@@ -800,13 +800,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580836507516601497}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.33200264, y: 0.47386536, z: -0.40727603}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1851066501266525007
 MeshFilter:
@@ -866,7 +866,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580836507516601497}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -897,8 +897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &6064493676239915339
 MeshCollider:
@@ -950,13 +950,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935925612092732995}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.44771385, y: -0.33441943, z: -0.1842444}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6520260957375383529
 MeshFilter:
@@ -1016,7 +1016,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935925612092732995}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1047,8 +1047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &8754351249875562066
 MeshCollider:
@@ -1100,13 +1100,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094388029057413672}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.42727184, y: -0.0010091662, z: -0.24640751}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9021950505707198675
 MeshFilter:
@@ -1166,7 +1166,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094388029057413672}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1197,8 +1197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4991940120279407199
 MeshCollider:
@@ -1245,6 +1245,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2286961132592470665}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1279,7 +1280,6 @@ Transform:
   - {fileID: 4700441454615559161}
   - {fileID: 3485504849608037773}
   m_Father: {fileID: 4852960102565348023}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2394245929256705920
 GameObject:
@@ -1309,13 +1309,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2394245929256705920}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.32791138, y: 0.4377369, z: -0.085767746}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5483705463290717772
 MeshFilter:
@@ -1375,7 +1375,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2394245929256705920}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1406,8 +1406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &3650527336019498114
 MeshCollider:
@@ -1459,13 +1459,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2542369102236996229}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.33779907, y: -0.28585333, z: -0.40534925}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2395165436637282078
 MeshFilter:
@@ -1525,7 +1525,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2542369102236996229}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1556,8 +1556,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &2375518931222123859
 MeshCollider:
@@ -1609,13 +1609,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2711586821542856596}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.19190598, y: -0.091070205, z: 0.3816706}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6085664545312407380
 MeshFilter:
@@ -1675,7 +1675,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2711586821542856596}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1706,8 +1706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &5045083625117344603
 MeshCollider:
@@ -1759,13 +1759,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2842823277654710933}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.21402073, y: 0.5039365, z: -0.14234996}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1526598131288782443
 MeshFilter:
@@ -1825,7 +1825,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2842823277654710933}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1856,8 +1856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &634520111631383158
 MeshCollider:
@@ -1909,13 +1909,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2994255920681996537}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.4610529, y: -0.28028157, z: -0.41708076}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2307702251247459737
 MeshFilter:
@@ -1975,7 +1975,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2994255920681996537}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2006,8 +2006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4758255118078143159
 MeshCollider:
@@ -2059,13 +2059,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3008168368271554901}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.08168888, y: -0.27185223, z: 0.32617807}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3216257998326864779
 MeshFilter:
@@ -2125,7 +2125,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3008168368271554901}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2156,8 +2156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &1064593852439163313
 MeshCollider:
@@ -2209,13 +2209,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3348781957707964261}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.31649876, y: 0.025176525, z: 0.38642555}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3473182333682846010
 MeshFilter:
@@ -2275,7 +2275,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3348781957707964261}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2306,8 +2306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4415138634982639206
 MeshCollider:
@@ -2359,13 +2359,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4120227723110709482}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.42634583, y: -0.24706537, z: -0.35299015}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6549222560885398822
 MeshFilter:
@@ -2425,7 +2425,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4120227723110709482}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2456,8 +2456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &7545303504238232496
 MeshCollider:
@@ -2509,13 +2509,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4465208901535176039}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.21194363, y: 0.39750823, z: -0.30533254}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6538966753714496515
 MeshFilter:
@@ -2575,7 +2575,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4465208901535176039}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2606,8 +2606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &1425033922592686534
 MeshCollider:
@@ -2659,13 +2659,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4495944606767133961}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.23190022, y: -0.26987308, z: 0.2321316}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5008193574059720769
 MeshFilter:
@@ -2725,7 +2725,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4495944606767133961}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2756,8 +2756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &9122543622724038082
 MeshCollider:
@@ -2809,13 +2809,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4744291218488696236}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.46220016, y: -0.33408958, z: -0.20139039}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8194512820083513624
 MeshFilter:
@@ -2875,7 +2875,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4744291218488696236}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2906,8 +2906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4836351865946773390
 MeshCollider:
@@ -2954,6 +2954,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5390831254220630827}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10, y: 0.41, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
@@ -2962,7 +2963,6 @@ Transform:
   - {fileID: 1634482882989844829}
   - {fileID: 8537912461400360315}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5620716575136501663
 GameObject:
@@ -2992,13 +2992,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5620716575136501663}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.42076778, y: -0.23150884, z: -0.011368513}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2159033981865397345
 MeshFilter:
@@ -3058,7 +3058,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5620716575136501663}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3089,8 +3089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4830890887761008674
 MeshCollider:
@@ -3142,13 +3142,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5863209790069412385}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.3953972, y: 0.15538368, z: -0.06959152}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1659176681409455037
 MeshFilter:
@@ -3208,7 +3208,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5863209790069412385}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3239,8 +3239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &3976903628685453761
 MeshCollider:
@@ -3292,13 +3292,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6005287324161809497}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.2684412, y: -0.30870408, z: 0.037613034}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2711925158586630569
 MeshFilter:
@@ -3358,7 +3358,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6005287324161809497}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3389,8 +3389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &2208753572796027097
 MeshCollider:
@@ -3442,13 +3442,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6306954136214137520}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.22484875, y: 0.014246523, z: -0.47697294}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8280843071118864097
 MeshFilter:
@@ -3508,7 +3508,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6306954136214137520}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3539,8 +3539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &8882112633552595987
 MeshCollider:
@@ -3592,13 +3592,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7027077594190005961}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.3843708, y: 0.5801296, z: -0.14040065}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7927848312015067150
 MeshFilter:
@@ -3658,7 +3658,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7027077594190005961}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3689,8 +3689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &6824491106438090929
 MeshCollider:
@@ -3742,13 +3742,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7044493157773313565}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.11141014, y: -0.15793198, z: 0.44633275}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7854846046018660367
 MeshFilter:
@@ -3808,7 +3808,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7044493157773313565}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3839,8 +3839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &4765205052587543500
 MeshCollider:
@@ -3892,13 +3892,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7518800188581525360}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.23983097, y: 0.059976667, z: 0.1912812}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2164738112746927198
 MeshFilter:
@@ -3958,7 +3958,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7518800188581525360}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3989,8 +3989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &6006656570621252234
 MeshCollider:
@@ -4042,13 +4042,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7951066159209103482}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0.17209244, y: 0.087729484, z: 0.46000284}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5128175537268437748
 MeshFilter:
@@ -4108,7 +4108,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7951066159209103482}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4139,8 +4139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &5232521050328356854
 MeshCollider:
@@ -4192,13 +4192,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8913618280758815661}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.4293537, y: -0.34080204, z: 0.2903914}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6026318336896221827
 MeshFilter:
@@ -4258,7 +4258,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8913618280758815661}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4289,8 +4289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &5795711025620854243
 MeshCollider:
@@ -4342,13 +4342,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9146977137716037017}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0.23476887, y: -0.07139751, z: 0.10424101}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8537912461400360315}
-  m_RootOrder: -2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7344981973093539033
 MeshFilter:
@@ -4408,7 +4408,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9146977137716037017}
   serializedVersion: 4
-  m_Mass: 7.5
+  m_Mass: 6
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4439,8 +4439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a8df0c92b996b49a90415d040818a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapHP: 250
-  MinDamage: 75
+  MapHP: 150
+  MinDamage: 20
   Effect: {fileID: 0}
 --- !u!64 &7295693072384762611
 MeshCollider:

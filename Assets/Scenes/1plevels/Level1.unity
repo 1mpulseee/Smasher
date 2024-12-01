@@ -1993,7 +1993,7 @@ MonoBehaviour:
   GameStarted: 0
   LevelCompletionPercent: 0.75
   LevelCompletionBar: {fileID: 2016512933}
-  WinScreen: {fileID: 0}
+  WinScreen: {fileID: 2003764863}
 --- !u!4 &287929633
 Transform:
   m_ObjectHideFlags: 0
@@ -10968,6 +10968,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873b8a7fc0d174c4898301816eff2a38, type: 3}
+--- !u!1 &2003764863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5126860999144071570, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+  m_PrefabInstance: {fileID: 2016512932}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2016512932
 PrefabInstance:
   m_ObjectHideFlags: 0

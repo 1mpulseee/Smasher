@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3270795, g: 0.29050896, b: 0.32146317, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 806973497a8f0f4469941bc2fc95465f, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2688,13 +2687,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569422954}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &574552703
 PrefabInstance:
@@ -2889,13 +2888,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596922640}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -106812.53, y: 27410.887, z: 1710}
   m_LocalScale: {x: 353377.62, y: -76270.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &611057177
 PrefabInstance:
@@ -7728,6 +7727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596060245}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.63140625, z: -0, w: 0.77545226}
   m_LocalPosition: {x: 57, y: 14.1, z: 80.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -7848,7 +7848,6 @@ Transform:
   - {fileID: 1972888980}
   - {fileID: 759498370}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 78.308, z: 0}
 --- !u!1001 &1599320144
 PrefabInstance:
@@ -10463,3 +10462,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6858009896581043093, guid: e53a28fe16c8bb64ca95360cf5000d47, type: 3}
   m_PrefabInstance: {fileID: 783013046}
   m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 569422956}
+  - {fileID: 1596060247}
+  - {fileID: 596922644}
+  - {fileID: 681393953}
+  - {fileID: 280240274}
+  - {fileID: 351710812}
+  - {fileID: 1186156561}
+  - {fileID: 632170950}
+  - {fileID: 1392265009}
+  - {fileID: 439099582}
+  - {fileID: 1260718945}
+  - {fileID: 661260777}
+  - {fileID: 1474806254}
+  - {fileID: 2086196329}
+  - {fileID: 165576161}
+  - {fileID: 588901393}
+  - {fileID: 1400171258}

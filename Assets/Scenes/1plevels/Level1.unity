@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008070238, g: 0.029848402, b: 0.15446785, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 9ef0ca13ae0e9d540ac66fc293730915, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2002,6 +2001,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287929631}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.8000002, y: 1.56, z: 60.92384}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2166,7 +2166,6 @@ Transform:
   - {fileID: 1689326808}
   - {fileID: 1547760455}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &288001221 stripped
 Transform:
@@ -3682,13 +3681,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569422954}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &571490602
 PrefabInstance:
@@ -4115,13 +4114,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596922640}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -106812.53, y: 27410.887, z: 1710}
   m_LocalScale: {x: 353377.62, y: -76270.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &606432172 stripped
 Transform:
@@ -11740,3 +11739,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3402146789611136392, guid: c73f8e267ab39f24c9a822b1967d6933, type: 3}
   m_PrefabInstance: {fileID: 1780760352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 560423720}
+  - {fileID: 569422956}
+  - {fileID: 287929633}
+  - {fileID: 596922644}
+  - {fileID: 2043493466}
+  - {fileID: 1849226611}
+  - {fileID: 2016512932}
+  - {fileID: 347914472}
+  - {fileID: 1010987438}
+  - {fileID: 349206104}
+  - {fileID: 1500799301}
+  - {fileID: 498897789}
+  - {fileID: 588901393}
+  - {fileID: 165576161}

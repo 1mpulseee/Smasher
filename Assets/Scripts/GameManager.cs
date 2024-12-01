@@ -28,6 +28,17 @@ public class GameManager : MonoBehaviour
     [SerializeField][Range(0f, 1f)] float LevelCompletionPercent = .75f;
     [SerializeField] Image LevelCompletionBar;
     [SerializeField] GameObject WinScreen;
+    [HideInInspector] public int selected;
+    [SerializeField] Outline[] ButtonsBorder;
+    public void SelectCannonBall(int index)
+    {
+        selected = index;
+        for (int i = 0; i < ButtonsBorder.Length; i++)
+        {
+            ButtonsBorder[i].effectColor = Color.blue;
+        }
+        ButtonsBorder[index].effectColor = Color.green;
+    }
     private void Awake()
     {
         instance = this;

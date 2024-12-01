@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6434469736937444859}
   - component: {fileID: 7101205662647193976}
   - component: {fileID: 1080795329428826577}
+  - component: {fileID: 8779761179284257471}
   m_Layer: 0
   m_Name: bomb1
-  m_TagString: Bomb
+  m_TagString: CannonBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977286250565436548}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.7005078, y: -0.0662309, z: 0.001463181, w: 0.71056324}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8943971885099692654
 MeshFilter:
@@ -114,7 +115,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977286250565436548}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -133,3 +134,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8779761179284257471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977286250565436548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f8da500002aa54299f275caacc6c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 20
+  dmg: 20000
+  effect: {fileID: 62399858245937715, guid: be95b8d9a85a3bf4397b313096352936, type: 3}

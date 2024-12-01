@@ -13,7 +13,7 @@ public class DestructionBuild : DestructionCore
         DestSound = GetComponentInParent<AudioSource>();
         Fragments.SetActive(false);
     }
-    protected override void ChangeHealth(float dmg)
+    public override void ChangeHealth(float dmg)
     {
         base.ChangeHealth(dmg);
     }

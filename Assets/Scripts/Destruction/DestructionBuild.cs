@@ -1,5 +1,4 @@
 using UnityEngine;
-[RequireComponent(typeof(Rigidbody))]
 public class DestructionBuild : DestructionCore
 {
     bool IsDest;

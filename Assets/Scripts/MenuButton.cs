@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuButton : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class MenuButton : MonoBehaviour
         switch (type)
         {
             case ButtonType.PlaySolo:
-                //do somthing
+                SceneManager.LoadScene(1);
                 break;
             case ButtonType.PlayOnline:
 

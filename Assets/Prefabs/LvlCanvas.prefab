@@ -121,7 +121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7039236614031317337}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3394559826599859493}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: NextLvl
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3365011659110958984
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +629,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1916050032842012685}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3394559826599859493}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6785653881238696378
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +654,7 @@ GameObject:
   - component: {fileID: 8041501451777027294}
   - component: {fileID: 4405162232460443551}
   - component: {fileID: 6723127157750631468}
+  - component: {fileID: 3394559826599859493}
   m_Layer: 5
   m_Name: LvlCanvas
   m_TagString: Untagged
@@ -653,7 +678,7 @@ RectTransform:
   - {fileID: 6023080209028953151}
   - {fileID: 8910000221495474725}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -723,6 +748,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3394559826599859493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785653881238696378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9fce3c065408e41bebeb45b5c4bd28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8604796177420833400
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class DemoGun : MonoBehaviour
     [SerializeField] Transform RifleStart;
     [SerializeField] Transform Cannon;
     [SerializeField] Transform Gyro;
+    [SerializeField] ParticleSystem[] Effects;
     private void Awake()
     {
         Input.multiTouchEnabled = false;
@@ -19,6 +20,10 @@ public class DemoGun : MonoBehaviour
         {
             GameObject NewCannonball = Instantiate(Ball, RifleStart.position, Quaternion.identity);
             NewCannonball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * Power, ForceMode.Impulse);
+            for (int i = 0; i < Effects.Length; i++)
+            {
+                Effects[i].Play();
+            }
         }
     }
 }

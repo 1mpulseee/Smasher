@@ -464,8 +464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4978064daae48a44babcfdb0146804bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ball: {fileID: 327144706606409005, guid: 6b6cf893f402dcf4e84b81a5ee109711, type: 3}
-  Power: 750
   RifleStart: {fileID: 818751404961828623}
   Cannon: {fileID: 3274296876109986852}
   Gyro: {fileID: 4231383467060439827}
@@ -474,6 +472,14 @@ MonoBehaviour:
   - {fileID: 698254279719646920}
   - {fileID: 5791695386798555453}
   - {fileID: 6672557278104953375}
+  CannonBalls:
+  - {fileID: 890776778130919368, guid: c476c950ead6234439cd68a2ccf28d7c, type: 3}
+  - {fileID: 1977286250565436548, guid: f1590c1a8ac8c374ead038a0bffebaed, type: 3}
+  - {fileID: 2033810842899392032, guid: 9c94e42e4bd058b40812a99415e34cdc, type: 3}
+  Powers:
+  - 1500
+  - 750
+  - 750
 --- !u!1 &8984140187584502563
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +585,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 911270373038662983, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911270373038662983, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
       propertyPath: ShapeModule.type
       value: 2
       objectReference: {fileID: 0}
@@ -612,6 +622,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3894387643710477795, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
       propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894387643710477795, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3894387643710477795, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
@@ -711,6 +725,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7143475373856637236, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143475373856637236, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
       propertyPath: ShapeModule.type
       value: 2
       objectReference: {fileID: 0}
@@ -744,6 +762,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8060082378551910934, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
       propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8060082378551910934, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8060082378551910934, guid: aed12c224fbc8704d8eaa07a52e88f44, type: 3}

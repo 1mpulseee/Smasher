@@ -3605,6 +3605,11 @@ MonoBehaviour:
   LevelCompletionPercent: 0.75
   LevelCompletionBar: {fileID: 2071580499}
   WinScreen: {fileID: 2071580498}
+  selected: 0
+  ButtonsBorder:
+  - {fileID: 2071580502}
+  - {fileID: 2071580501}
+  - {fileID: 2071580500}
 --- !u!4 &1034444221
 Transform:
   m_ObjectHideFlags: 0
@@ -6362,6 +6367,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1118924234164768439, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034444220}
+    - target: {fileID: 1118924234164768439, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCannonBall
+      objectReference: {fileID: 0}
     - target: {fileID: 2056617530676846224, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6446,6 +6459,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2897923068716204595, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034444220}
+    - target: {fileID: 2897923068716204595, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCannonBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654459854516756778, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034444220}
+    - target: {fileID: 3654459854516756778, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCannonBall
+      objectReference: {fileID: 0}
     - target: {fileID: 5364102622309356563, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
@@ -6473,6 +6502,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2071580500 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7273169133167858226, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+  m_PrefabInstance: {fileID: 2071580497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2071580501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 299293405671486509, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+  m_PrefabInstance: {fileID: 2071580497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2071580502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2588328161886706546, guid: 9742959c19216514d810a6d4ecaba3dd, type: 3}
+  m_PrefabInstance: {fileID: 2071580497}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2080089927 stripped

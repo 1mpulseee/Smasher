@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager instance {get; private set;}
     [HideInInspector] public bool GameStarted;
     DestructionBuild[] builds;
     int buildsCount;

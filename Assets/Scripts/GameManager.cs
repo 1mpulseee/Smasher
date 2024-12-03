@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance {get; private set;}
+    public static GameManager Instance {get; private set;}
     [HideInInspector] public bool GameStarted;
     DestructionBuild[] builds;
     int buildsCount;
@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     }
     private void Awake()
     {
-        instance = this;
+        Instance = this;
         builds = GetComponentsInChildren<DestructionBuild>();
         buildsCount = builds.Length;
         TotalDest = 0;

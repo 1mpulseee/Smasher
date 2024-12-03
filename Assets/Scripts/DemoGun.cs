@@ -24,8 +24,8 @@ public class DemoGun : MonoBehaviour
                 int id = touch.fingerId;
                 if (!EventSystem.current.IsPointerOverGameObject(id))
                 {
-                    GameObject NewCannonball = Instantiate(CannonBalls[GameManager.instance.selected], RifleStart.position, Quaternion.identity);
-                    NewCannonball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * Powers[GameManager.instance.selected], ForceMode.Impulse);
+                    GameObject NewCannonball = Instantiate(CannonBalls[GameManager.Instance.selected], RifleStart.position, Quaternion.identity);
+                    NewCannonball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * Powers[GameManager.Instance.selected], ForceMode.Impulse);
                     for (int i = 0; i < Effects.Length; i++)
                     {
                         Effects[i].Play();

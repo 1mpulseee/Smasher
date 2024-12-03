@@ -27,7 +27,7 @@ public class DestructionBuild : DestructionCore
         //GameObject NewEffect = Instantiate(Effect, transform.position, Quaternion.identity);
         //Destroy(NewEffect, 3f);
         //Debug.LogWarning("DestructionBuild/Breakdown => turn on the effects when you add them");
-        GameManager.instance.BuildingDestroyed();
+        GameManager.Instance.BuildingDestroyed();
         Destroy(gameObject);
     }
 }

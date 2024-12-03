@@ -12,7 +12,7 @@ public class DestructionCore : MonoBehaviour
     protected virtual void Breakdown() { }
     public virtual void ChangeHealth(float dmg)
     {
-        if (!GameManager.instance.GameStarted) return;
+        if (!GameManager.Instance.GameStarted) return;
         if (dmg > MinDamage)
         {
             Hp -= dmg;
